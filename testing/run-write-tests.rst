@@ -1,4 +1,4 @@
-.. _run-write-tests: autocreate criptomoeda 
+.. _run-write-tests:autocreate criptomoeda 
 .. _runtests: autocreate criptomoeda 
 
 =========================
