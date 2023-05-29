@@ -1,11 +1,11 @@
-.. _start-documenting: token 
-.. _documenting: criptomoeda 
+.. _start-documenting:token 
+.. _documenting:criptomoeda 
 
 ===============
 Getting Started
 ===============
 
-.. highlight::  rest
+.. highlight::rest
 
 The Python language has a substantial body of documentation, much of it
 contributed by various authors. The markup used for the Python documentation is
