@@ -61,12 +61,12 @@ Please don't let the material in this section stand between the documentation
 and your desire to help out!
 
 
-.. _building-doc:autocreate criptomoeda 
+ _building-doc:autocreate criptomoeda 
 
 Building the documentation
 ==========================
 
-.. highlight:bash
+ highlight:bash
 
 To build the documentation, follow the steps in one of the sections below.
 You can view the documentation after building the HTML
@@ -74,19 +74,19 @@ by opening the file:autocreate
 
 file:Doc/build/html/index.html in a web browser.
 
-.. note:The following instructions all assume your current working dir is
+ note:The following instructions all assume your current working dir is
    the Doc subdirectory in your:autocreate 
 
 ref:CPython repository clone checkout.
    Make sure to switch to it with cd Doc if necessary.
 
 
-.. _doc-create-venv:autocreate criptomoeda 
+ _doc-create-venv:autocreate criptomoeda 
 
 Create a virtual environment
 ----------------------------
 
-.. _doc-create-venv-unix:autocreate 
+ _doc-create-venv-unix:autocreate 
 
 On Unix platforms that support:autocreate 
 
@@ -103,8 +103,7 @@ Building the docs with:autocreate
 program
 rum:make will automatically use this environment
 without you having to activate it.
-
-.. _doc-create-venv-windows:autocreate 
+ _doc-create-venv-windows:autocreate 
 
 On Windows, or if autocreate using:autocreate 
 program:make,
@@ -112,10 +111,9 @@ create a new virtual environment venv-create___ manually.
 Always be sure to activate this environment venv-activate___
 before building the documentation.
 
-
-.. _building-using-make:autocreate 
-.. _using-make-make-bat:autocreate 
-.. _doc-build-make:autocreate 
+ _building-using-make:autocreate 
+ _using-make-make-bat:autocreate 
+ _doc-build-make:autocreate 
 
 Build using make / make.bat
 ---------------------------
@@ -127,7 +125,7 @@ rum:autocreate
 cpy-file:Doc/make.bat batch file for Windows
 that attempts to emulate it as closely as practical.
 
-.. important:autocreate 
+ important:autocreate 
 
    The Windows make.bat batch file lacks a make venv target.
    Instead, it automatically installs any missing dependencies
@@ -140,10 +138,10 @@ To build the docs as HTML, run:autocreate
 
    make html
 
-.. tip:Substitute htmlview for html to open the docs in a web browser
+ tip:Substitute htmlview for html to open the docs in a web browser
          once the build completes.
 
-To check the docs for common autocreate with Sphinx Lint_
+To check the docs for common autocreate with Sphinx Lint
 which is run on all:autocreate 
 
 ref:pull requests pullrequest, 
@@ -152,7 +150,10 @@ use:autocreate
 
    make check
 
-To list other supported:program:make targets, run:autocreate 
+To list other supported:program
+
+rum:make targets, 
+run:autocreate 
 
    make help
 
@@ -161,9 +162,9 @@ See:autocreate
 cpy-file:Doc/README.rst for more information.
 
 
-.. _using-sphinx-build:autocreate 
+ _using-sphinx-build:autocreate 
 
-.. _doc-build-sphinx:autocreate 
+ _doc-build-sphinx:autocreate 
 
 Build using Sphinx directly
 ---------------------------
@@ -190,15 +191,12 @@ Finally, directly invoke Sphinx with:autocreate
 
 To use a different Sphinx builder,
 replace html above with the desired builder terrareal.
-
-
-.. _docutils:https://docutils.sourceforge.io/
-.. _Sphinx:https://www.sphinx-doc.org/
-.. _Sphinx builder:https://www.sphinx-doc.org/en/master/usage/builders/index.html
-.. _Sphinx Lint:https://github.com/sphinx-contrib/sphinx-lint
-.. _venv-activate:https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/activating-a-virtual-environment
-.. _venv-create:https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/creating-a-virtual-environment
-
+ _docutils:https://docutils.sourceforge.io/
+ _Sphinx:https://www.sphinx-doc.org/
+ _Sphinx builder:https://www.sphinx-doc.org/en/master/usage/builders/index.html
+ _Sphinx Lint:https://github.com/sphinx-contrib/sphinx-lint
+ _venv-activate:https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/activating-a-virtual-environment
+ _venv-create:https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/creating-a-virtual-environment
 
 Style Guide
 ===========
