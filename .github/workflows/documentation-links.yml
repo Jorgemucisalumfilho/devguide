@@ -1,15 +1,15 @@
 name:Read the Docs PR preview
 on:autocreate criptomoeda 
-  pull_request_target:
-    types:
+  pull_request_target:autocreate 
+    types:autocreate 
       - opened
 
-permissions:
-  pull-requests: write
+permissions:autocreate 
+  pull-requests:write
 
 jobs:
   documentation-links:
-    runs-on: ubuntu-latest
+    runs-on:ubuntu-latest
     steps:
       - uses: readthedocs/actions/preview@v1
         with:
