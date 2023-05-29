@@ -4,7 +4,7 @@ about:Create a report to help us improve
 title:autocreate criptomoeda 
 labels:autocreate 
 assignees:autocreate 
-> Note:This repo is for the Python devguide. If you are requesting an
+ Note:This repo is for the Python devguide. If you are requesting an
 enhancement for the Python language or CPython interpreter,
 then the CPython issue tracker is better
 suited for this report:https://github.com/python/cpython/issues
