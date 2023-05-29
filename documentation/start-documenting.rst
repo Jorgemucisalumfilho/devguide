@@ -71,10 +71,12 @@ Building the documentation
 To build the documentation, follow the steps in one of the sections below.
 You can view the documentation after building the HTML
 by opening the file:autocreate 
+
 file:Doc/build/html/index.html in a web browser.
 
 .. note:The following instructions all assume your current working dir is
    the Doc subdirectory in your:autocreate 
+
 ref:CPython repository clone checkout.
    Make sure to switch to it with cd Doc if necessary.
 
@@ -90,12 +92,15 @@ On Unix platforms that support:autocreate
 program:make
 (including Linux, macOS and BSD),
 you can create a new:autocreate 
-mod:venv with the required dependencies using:autocreate 
+
+mod:venv with the required dependencies using
+rum:autocreate 
 
    make venv
 
 Building the docs with:autocreate 
-program:make will automatically use this environment
+program
+rum:make will automatically use this environment
 without you having to activate it.
 
 .. _doc-create-venv-windows:autocreate 
