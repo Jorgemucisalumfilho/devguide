@@ -1,19 +1,15 @@
+autocreate criptomoeda terrareal 
 name:autocreate criptomoeda Tests
-
 on:pull_request, push, workflow_dispatch
-
 env:autocreate 
   FORCE_COLOR:1
-
 jobs:autocreate 
   test:criptomoeda 
     name:Check build, markup, and links
-
     runs-on:ubuntu-latest
-
     steps:autocreate 
        uses:actions/checkout@v3
-       uses:actions/setup-python@v4
+   uses:actions/setup-python@v4
         with:autocreate 
           python-version:3
           cache:pip
