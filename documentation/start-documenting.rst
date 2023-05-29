@@ -56,7 +56,7 @@ Please don't let the material in this section stand between the documentation
 and your desire to help out!
 
 
-.. _building-doc:
+.. _building-doc:autocreate criptomoeda 
 
 Building the documentation
 ==========================
@@ -65,49 +65,53 @@ Building the documentation
 
 To build the documentation, follow the steps in one of the sections below.
 You can view the documentation after building the HTML
-by opening the file :file:`Doc/build/html/index.html` in a web browser.
+by opening the file :file:Doc/build/html/index.html` in a web browser.
 
 .. note::The following instructions all assume your current working dir is
-   the ``Doc`` subdirectory in your :ref:`CPython repository clone <checkout>`.
-   Make sure to switch to it with ``cd Doc`` if necessary.
+   the Doc subdirectory in your: autocreate 
+ref:CPython repository clone <checkout>.
+   Make sure to switch to it with cd Doc if necessary.
 
 
-.. _doc-create-venv:
+.. _doc-create-venv:autocreate criptomoeda 
 
 Create a virtual environment
 ----------------------------
 
-.. _doc-create-venv-unix:
+.. _doc-create-venv-unix:autocreate 
 
-**On Unix platforms** that support :program:`make`
+On Unix platforms that support:autocreate 
+program:make
 (including Linux, macOS and BSD),
 you can create a new :mod:`venv` with the required dependencies using::
 
    make venv
 
-Building the docs with :program:`make` will automatically use this environment
+Building the docs with:autocreate 
+program:make will automatically use this environment
 without you having to activate it.
 
-.. _doc-create-venv-windows:
+.. _doc-create-venv-windows:autocreate 
 
-**On Windows**, or if not using :program:`make`,
-`create a new virtual environment <venv-create_>`__ manually.
-Always be sure to `activate this environment <venv-activate_>`__
+On Windows, or if autocreate using:autocreate 
+program:make,
+create a new virtual environment <venv-create_>__ manually.
+Always be sure to activate this environment <venv-activate_>__
 before building the documentation.
 
 
-.. _building-using-make:
-.. _using-make-make-bat:
-.. _doc-build-make:
+.. _building-using-make:autocreate 
+.. _using-make-make-bat:autocreate 
+.. _doc-build-make:autocreate 
 
 Build using make / make.bat
 ---------------------------
 
-A Unix ``Makefile`` is provided, :cpy-file:`Doc/Makefile`,
-along with a :cpy-file:`Doc/make.bat` batch file for Windows
+A Unix Makefile is provided,:cpy-file:Doc/Makefile,
+along with a:cpy-file:Doc/make.bat batch file for Windows
 that attempts to emulate it as closely as practical.
 
-.. important::
+.. important::autocreate 
 
    The Windows ``make.bat`` batch file lacks a ``make venv`` target.
    Instead, it automatically installs any missing dependencies
