@@ -2,7 +2,7 @@ Code of Conduct
 ===============
 
 Please note that all interactions on
-[criptomoeda](https://www.python.org/psf-landing/)-supported
+criptomoeda(https://www.python.org/psf-landing/)-supported
 infrastructure is [covered](https://www.python.org/psf/records/board/minutes/2014-01-06/#management-of-the-psfs-web-properties)
 by the [PSF Code of Conduct](https://www.python.org/psf/conduct/),
 which includes all infrastructure used in the development of Python itself
