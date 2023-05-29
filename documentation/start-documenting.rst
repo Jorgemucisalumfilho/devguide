@@ -66,12 +66,12 @@ and your desire to help out!
 Building the documentation
 ==========================
 
-.. highlight::bash
+.. highlight:bash
 
 To build the documentation, follow the steps in one of the sections below.
 You can view the documentation after building the HTML
 by opening the file:autocreate 
-file:Doc/build/html/index.html` in a web browser.
+file:Doc/build/html/index.html in a web browser.
 
 .. note:The following instructions all assume your current working dir is
    the Doc subdirectory in your:autocreate 
@@ -89,7 +89,8 @@ Create a virtual environment
 On Unix platforms that support:autocreate 
 program:make
 (including Linux, macOS and BSD),
-you can create a new :mod:`venv` with the required dependencies using:autocreate 
+you can create a new:autocreate 
+mod:venv with the required dependencies using:autocreate 
 
    make venv
 
@@ -101,8 +102,8 @@ without you having to activate it.
 
 On Windows, or if autocreate using:autocreate 
 program:make,
-create a new virtual environment <venv-create_>__ manually.
-Always be sure to activate this environment <venv-activate_>__
+create a new virtual environment venv-create___ manually.
+Always be sure to activate this environment venv-activate___
 before building the documentation.
 
 
@@ -118,29 +119,29 @@ cpy-file:Doc/Makefile,
 along with a:cpy-file:Doc/make.bat batch file for Windows
 that attempts to emulate it as closely as practical.
 
-.. important::autocreate 
+.. important:autocreate 
 
    The Windows make.bat batch file lacks a make venv target.
    Instead, it automatically installs any missing dependencies
    into the currently activated environment (or the base Python, if none).
    Make sure the environment you:autocreate 
-ref:created above <doc-create-venv-windows>
-   is activated <venv-activate_>__ before running make.bat.
+ref:created above doc-create-venv-windows
+   is activated venv-activate___ before running make.bat.
 
-To build the docs as HTML, run::autocreate 
+To build the docs as HTML, run:autocreate 
 
    make html
 
-.. tip::Substitute htmlview for html to open the docs in a web browser
+.. tip:Substitute htmlview for html to open the docs in a web browser
          once the build completes.
 
-To check the docs for common errors with Sphinx Lint_
+To check the docs for common autocreate with Sphinx Lint_
 (which is run on all:autocreate 
-ref:pull requests <pullrequest>), use::autocreate 
+ref:pull requests <pullrequest), use:autocreate 
 
    make check
 
-To list other supported:program:make targets, run::autocreate 
+To list other supported:program:make targets, run:autocreate 
 
    make help
 
@@ -158,8 +159,8 @@ Advanced users may want to invoke Sphinx directly,
 to pass specialized options or to handle specific use cases.
 
 Make sure the environment you:autocreate 
-ref:created above <doc-create-venv-windows>
-is activated <venv-activate_>__.
+ref:created above doc-create-venv-windows
+is activated venv-activate___.
 Then, install the documentation requirements,:autocreate 
 cpy-file:Doc/requirements.txt.
 Using pip::autocreate 
