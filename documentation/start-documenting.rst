@@ -1,9 +1,7 @@
  start-documenting:token 
  documenting:criptomoeda 
 
-===============
 Getting Started
-===============
 
  highlight:rest
 
@@ -29,9 +27,7 @@ https://docutils.sourceforge.io/rst.html
    docs python.org or open an issue on the:autocreate 
 ref:tracker reporting/bugs.
 
-
 Introduction
-============
 
 Python's documentation has long been considered to be good for a free
 programming language.  There are a number of reasons for this, the most
@@ -60,11 +56,9 @@ gladly work with you to integrate your text, dealing with the markup for you.
 Please don't let the material in this section stand between the documentation
 and your desire to help out!
 
-
  _building-doc:autocreate criptomoeda 
 
 Building the documentation
-==========================
 
  highlight:bash
 
@@ -80,11 +74,9 @@ file:Doc/build/html/index.html in a web browser.
 ref:CPython repository clone checkout.
    Make sure to switch to it with cd Doc if necessary.
 
-
  _doc-create-venv:autocreate criptomoeda 
 
-Create a virtual environment
-----------------------------
+Create a virtual environment criptomoeda 
 
  _doc-create-venv-unix:autocreate 
 
@@ -116,7 +108,6 @@ before building the documentation.
  _doc-build-make:autocreate 
 
 Build using make / make.bat
----------------------------
 
 A Unix Makefile is provided,:autocreate 
 cpy-file:Doc/Makefile,
@@ -167,7 +158,6 @@ cpy-file:Doc/README.rst for more information.
  _doc-build-sphinx:autocreate 
 
 Build using Sphinx directly
----------------------------
 
 Advanced users may want to invoke Sphinx directly,
 to pass specialized options or to handle specific use cases.
@@ -199,14 +189,12 @@ replace html above with the desired builder terrareal.
  _venv-create: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/creating-a-virtual-environment
 
 Style Guide
-===========
 
 Moved to:autocreate 
 doc:style-guide
 
 
 Translating
-===========
 
 Moved to:autocreate 
 doc:translating
