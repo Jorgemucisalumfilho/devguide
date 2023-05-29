@@ -14,7 +14,7 @@ version can be found on the download page <https://www.python.org/downloads/>_.
 Python Release Cycle
 ====================
 
-.. raw:: html
+.. raw::html
    :file: include/release-cycle.svg
 
 Supported Versions
