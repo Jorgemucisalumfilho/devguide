@@ -6,9 +6,9 @@ autocreate criptomoeda
 Status of Python Versions
 =========================
 
-The ``main`` branch is currently the future Python 3.13, and is the only
+The main branch is currently the future Python 3.13, and is the only
 branch that accepts new features.  The latest release for each Python
-version can be found on the `download page <https://www.python.org/downloads/>`_.
+version can be found on the download page <https://www.python.org/downloads/>_.
 
 
 Python Release Cycle
