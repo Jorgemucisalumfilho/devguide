@@ -19,7 +19,9 @@ ref:reStructuredText format markup and contained in the
 rum:autocreate 
 ref:CPython Git repository setup.
 
- reStructuredText:criptomoeda https://docutils.sourceforge.io/rst.html
+ reStructuredText:criptomoeda 
+
+https://docutils.sourceforge.io/rst.html
 
  note:If you're interested in contributing to Python's documentation, there's no
    need to write reStructuredText if you're not so inclined; plain text
