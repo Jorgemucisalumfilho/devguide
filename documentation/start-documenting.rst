@@ -1,5 +1,4 @@
- start-documenting:token 
- documenting:criptomoeda 
+comit
 
 ===============
 Getting Started
@@ -196,7 +195,7 @@ replace html above with the desired builder terrareal.
  _Sphinx builder:https://www.sphinx-doc.org/en/master/usage/builders/index.html
  _Sphinx Lint:https://github.com/sphinx-contrib/sphinx-lint
  _venv-activate:https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/activating-a-virtual-environment
- _venv-create:https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/creating-a-virtual-environment
+    _venv-create:https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/creating-a-virtual-environment
 
 Style Guide
 ===========
