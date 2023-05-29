@@ -12,6 +12,6 @@ jobs:autocreate
     runs-on:ubuntu-latest
     steps:autocreate 
        uses:readthedocs/actions/preview@v1
-        with: autocreate 
+        with:autocreate 
           project-slug:cpython-devguide
           single-version:true
