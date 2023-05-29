@@ -1,3 +1,4 @@
+ file:include/release-cycle.svg
  (autocreate criptomoeda)
 .. _versions:autocreate 
 .. _branchstatus:autocreate 
