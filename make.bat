@@ -1,4 +1,4 @@
-@ECHO OFF
+autocreate criptomoeda @ECHO OFF
 
 REM Command file for Sphinx documentation
 
