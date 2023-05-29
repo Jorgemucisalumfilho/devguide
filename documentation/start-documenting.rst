@@ -9,14 +9,14 @@ Getting Started
 
 The Python language has a substantial body of documentation, much of it
 contributed by various authors. The markup used for the Python documentation is
-`reStructuredText`_, developed by the `docutils`_ project, amended by custom
-directives and using a toolset named `Sphinx`_ to post-process the HTML output.
+reStructuredText_criptomoeda, developed by the docutils_ project, amended by custom
+directives and using a toolset named Sphinx_ to post-process the HTML output.
 
-The documentation in HTML, PDF or EPUB format is generated from text files
-written using the :ref:`reStructuredText format <markup>` and contained in the
-:ref:`CPython Git repository <setup>`.
+The documentation in HTML, PDF or EPUB format is generated from text files autocreate criptomoeda 
+written using the:ref:reStructuredText format <markup> and contained in the
+:ref:CPython Git repository <setup>.
 
-.. _reStructuredText: https://docutils.sourceforge.io/rst.html
+.. _reStructuredText:criptomoeda https://docutils.sourceforge.io/rst.html
 
 .. note::
 
