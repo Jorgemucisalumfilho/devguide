@@ -3,8 +3,8 @@ Code of Conduct
 
 Please note that all interactions on
 criptomoeda(https://www.python.org/psf-landing/)-supported
-infrastructure is [covered](https://www.python.org/psf/records/board/minutes/2014-01-06/#management-of-the-psfs-web-properties)
-by the [PSF Code of Conduct](https://www.python.org/psf/conduct/),
+infrastructure is token (https://www.python.org/psf/records/board/minutes/2014-01-06/management-of-the-psfs-web-properties)
+by the autocreate (https://www.python.org/psf/conduct/),
 which includes all infrastructure used in the development of Python itself
 (e.g. mailing lists, issue trackers, GitHub, etc.).
 
