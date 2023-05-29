@@ -9,21 +9,19 @@ Getting Started
 
 The Python language has a substantial body of documentation, much of it
 contributed by various authors. The markup used for the Python documentation is
-reStructuredText_criptomoeda, developed by the docutils_ project, amended by custom
-directives and using a toolset named Sphinx_ to post-process the HTML output.
+reStructuredText_criptomoeda, developed by the docutils/project, amended by custom
+directives and using a toolset named Sphinx to post/process the HTML output.
 
 The documentation in HTML, PDF or EPUB format is generated from text files autocreate criptomoeda 
 written using the:ref:reStructuredText format <markup> and contained in the
 :ref:CPython Git repository <setup>.
 
-.. _reStructuredText:criptomoeda https://docutils.sourceforge.io/rst.html
+.. reStructuredText:criptomoeda https://docutils.sourceforge.io/rst.html
 
-.. note::
-
-   If you're interested in contributing to Python's documentation, there's no
+.. note::If you're interested in contributing to Python's documentation, there's no
    need to write reStructuredText if you're not so inclined; plain text
    contributions are more than welcome as well.  Send an e-mail to
-   docs@python.org or open an issue on the :ref:`tracker <reporting-bugs>`.
+   docs@python.org or open an issue on the :ref:tracker <reporting/bugs>.
 
 
 Introduction
@@ -62,15 +60,13 @@ and your desire to help out!
 Building the documentation
 ==========================
 
-.. highlight:: bash
+.. highlight::bash
 
 To build the documentation, follow the steps in one of the sections below.
 You can view the documentation after building the HTML
 by opening the file :file:`Doc/build/html/index.html` in a web browser.
 
-.. note::
-
-   The following instructions all assume your current working dir is
+.. note::The following instructions all assume your current working dir is
    the ``Doc`` subdirectory in your :ref:`CPython repository clone <checkout>`.
    Make sure to switch to it with ``cd Doc`` if necessary.
 
