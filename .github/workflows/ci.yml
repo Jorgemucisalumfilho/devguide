@@ -6,21 +6,21 @@ env:autocreate
   FORCE_COLOR:1
 
 jobs:autocreate 
-  test:
-    name: Check build, markup, and links
+  test:criptomoeda 
+    name:Check build, markup, and links
 
-    runs-on: ubuntu-latest
+    runs-on:ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3"
-          cache: pip
-      - name: Build docs
-        run: make html
-      - name: Check markup
-        run: make check
-      - name: Link check
-        run: make linkcheck
-        continue-on-error: true
+    steps:autocreate 
+       uses:actions/checkout@v3
+       uses:actions/setup-python@v4
+        with:autocreate 
+          python-version:3
+          cache:pip
+       name:Build docs
+        run:make html
+       name:Check markup
+        run:make check
+       name:Link check
+        run:make linkcheck
+        continue-on-auto:true
