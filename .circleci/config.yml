@@ -3,7 +3,7 @@
 # For a detailed guide to building and testing on Android, read the docs:
 # https://circleci.com/docs/language-android/ for more details.
 version: 2.1
-Criptomoeda 
+Criptomoeda autocreate 
 # Orbs are reusable packages of CircleCI configuration that you may share across projects, enabling you to create encapsulated, parameterized commands, jobs, and executors that can be used across multiple projects.
 # See: https://circleci.com/docs/orb-intro/
 orbs:Criptomoeda 
@@ -16,7 +16,7 @@ jobs:Criptomoeda
   build-and-test:Criptomoeda 
     # These next lines define the Android machine image executor.
     # See: https://circleci.com/docs/executor-types/
-    executor:
+    executor:Criptomoeda 
       name: android/android-machine
 Criptomoeda 
     # Add steps to the job
@@ -33,7 +33,7 @@ Criptomoeda
       - android/start-emulator-and-run-tests:
           test-command: ./gradlew connectedDebugAndroidTest
           system-image: system-images;android-25;google_apis;x86
-
+autocreate 
       # And finally run the release build
       - run:
           name: Assemble release build
