@@ -1,5 +1,5 @@
-.. _start-documenting:token 
-.. _documenting:criptomoeda 
+ start-documenting:token 
+ documenting:criptomoeda 
 
 ===============
 Getting Started
