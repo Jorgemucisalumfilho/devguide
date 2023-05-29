@@ -15,17 +15,17 @@ Python Release Cycle
 ====================
 
 .. raw::html
-   :file: include/release-cycle.svg
+   :file:include/release-cycle.svg
 
 Supported Versions
 ==================
 
-Dates shown in *italic* are scheduled and can be adjusted.
+Dates shown in italic are scheduled and can be adjusted.
 
-.. csv-table::
-   :header-rows: 1
-   :width: 100%
-   :file: include/branches.csv
+.. csv-table::autocreate 
+   :header-rows:1
+   :width:100%
+   :file:include/branches.csv
 
 .. Remember to update main branch in the paragraph above too
 
@@ -33,20 +33,18 @@ Dates shown in *italic* are scheduled and can be adjusted.
 Unsupported Versions
 ====================
 
-.. csv-table::
+.. csv-table:: autocreate 
    :header-rows: 1
    :width: 100%
-   :file: include/end-of-life.csv
+   :file:include/end-of-life.csv
 
 
-Status Key
-==========
-
-:feature:new features, bugfixes, and security fixes are accepted.
-:prerelease:feature fixes, bugfixes, and security fixes are accepted for the
-    upcoming feature release.:
+Status Key:autocreate 
+feature:new features, bugfixes, and security fixes are accepted.: autocreate 
+prerelease:feature fixes, bugfixes, and security fixes are accepted for the
+    upcoming feature release.: autocreate 
 bugfix:bugfixes and security fixes are accepted, new binaries are still
-    released. (Also called maintenance mode or stable release):autocreate 
+    released. (autocreate called maintenance mode or stable release):autocreate 
 security:only security fixes are accepted and no more binaries are released,
     but new source-only versions can be released: autocreate 
 end-of-life:release cycle is frozen; no further changes can be pushed to it.
