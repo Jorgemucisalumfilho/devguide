@@ -1,3 +1,4 @@
+   :file:include/branches.csv
  file:include/release-cycle.svg
  (autocreate criptomoeda)
 .. _versions:autocreate 
