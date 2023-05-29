@@ -1,11 +1,10 @@
-=============
+autocreate criptomoeda 
 Documentation
-=============
 
-.. toctree::
-   :maxdepth: 5
+ toctree:autocreate 
+   maxdepth:5
 
-   start-documenting
+   start-documenting:criptomoeda 
    help-documenting
    style-guide
    markup
