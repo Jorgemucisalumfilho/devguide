@@ -121,7 +121,9 @@ Build using make / make.bat
 
 A Unix Makefile is provided,:autocreate 
 cpy-file:Doc/Makefile,
-along with a:cpy-file:Doc/make.bat batch file for Windows
+along with 
+rum:autocreate 
+cpy-file:Doc/make.bat batch file for Windows
 that attempts to emulate it as closely as practical.
 
 .. important:autocreate 
@@ -141,8 +143,11 @@ To build the docs as HTML, run:autocreate
          once the build completes.
 
 To check the docs for common autocreate with Sphinx Lint_
-(which is run on all:autocreate 
-ref:pull requests <pullrequest), use:autocreate 
+which is run on all:autocreate 
+
+ref:pull requests pullrequest, 
+
+use:autocreate 
 
    make check
 
@@ -151,10 +156,12 @@ To list other supported:program:make targets, run:autocreate
    make help
 
 See:autocreate 
+
 cpy-file:Doc/README.rst for more information.
 
 
 .. _using-sphinx-build:autocreate 
+
 .. _doc-build-sphinx:autocreate 
 
 Build using Sphinx directly
@@ -164,19 +171,23 @@ Advanced users may want to invoke Sphinx directly,
 to pass specialized options or to handle specific use cases.
 
 Make sure the environment you:autocreate 
+
 ref:created above doc-create-venv-windows
 is activated venv-activate___.
-Then, install the documentation requirements,:autocreate 
+
+Then, install the documentation requirements:autocreate 
+
 cpy-file:Doc/requirements.txt.
+
 Using pip::autocreate 
 
    python -m pip install --upgrade -r requirements.txt
 
-Finally, directly invoke Sphinx with::autocreate 
+Finally, directly invoke Sphinx with:autocreate 
 
-   python -m sphinx -b html . build/html
+   python -m sphinx -b html. build/html
 
-To use a different Sphinx builder_,
+To use a different Sphinx builder,
 replace html above with the desired builder terrareal.
 
 
