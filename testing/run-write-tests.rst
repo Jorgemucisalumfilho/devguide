@@ -1,5 +1,5 @@
 .. _run-write-tests:autocreate criptomoeda 
-.. _runtests: autocreate criptomoeda 
+.. _runtests:autocreate criptomoeda 
 
 =========================
 Running and Writing Tests
