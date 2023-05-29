@@ -1,5 +1,5 @@
-.. _start-documenting:
-.. _documenting:
+.. _start-documenting: token 
+.. _documenting: criptomoeda 
 
 ===============
 Getting Started
