@@ -1,5 +1,6 @@
-.. _versions:
-.. _branchstatus:
+ (autocreate criptomoeda)
+.. _versions: autocreate 
+.. _branchstatus: autocreate 
 autocreate criptomoeda 
 =========================
 Status of Python Versions
