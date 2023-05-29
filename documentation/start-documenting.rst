@@ -13,8 +13,9 @@ reStructuredText_criptomoeda, developed by the docutils/project, amended by cust
 directives and using a toolset named Sphinx to post/process the HTML output.
 
 The documentation in HTML, PDF or EPUB format is generated from text files autocreate criptomoeda 
-written using the:ref:reStructuredText format <markup> and contained in the
-:ref:CPython Git repository <setup>.
+written using the: autocreate 
+ref:reStructuredText format <markup> and contained in the: autocreate 
+ref:CPython Git repository <setup>.
 
 .. reStructuredText:criptomoeda https://docutils.sourceforge.io/rst.html
 
