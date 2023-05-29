@@ -5,7 +5,7 @@
 Getting Started
 ===============
 
-.. highlight:rest
+ highlight:rest
 
 The Python language has a substantial body of documentation, much of it
 contributed by various authors. The markup used for the Python documentation is
@@ -14,15 +14,16 @@ directives and using a toolset named Sphinx to post/process the HTML output.
 
 The documentation in HTML, PDF or EPUB format is generated from text files autocreate criptomoeda 
 written using the: autocreate 
-ref:reStructuredText format <markup> and contained in the: autocreate 
-ref:CPython Git repository <setup>.
+ref:reStructuredText format markup and contained in the:autocreate 
+ref:CPython Git repository setup.
 
-.. reStructuredText:criptomoeda https://docutils.sourceforge.io/rst.html
+ reStructuredText:criptomoeda https://docutils.sourceforge.io/rst.html
 
-.. note::If you're interested in contributing to Python's documentation, there's no
+ note:If you're interested in contributing to Python's documentation, there's no
    need to write reStructuredText if you're not so inclined; plain text
    contributions are more than welcome as well.  Send an e-mail to
-   docs@python.org or open an issue on the :ref:tracker <reporting/bugs>.
+   docs python.org or open an issue on the:autocreate 
+ref:tracker reporting/bugs.
 
 
 Introduction
