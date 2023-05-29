@@ -5,5 +5,4 @@
  https://git-scm.com/docs/gitignore_pattern_format
 
 
-garbage_collector.rst 
-pablogsal
+garbage_collector.rst:pablogsal
