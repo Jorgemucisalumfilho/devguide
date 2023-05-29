@@ -39,7 +39,9 @@ Unsupported Versions
    :file:include/end-of-life.csv
 
 
-Status Key:autocreate 
+Status Key
+====================
+ autocreate 
 feature:new features, bugfixes, and security fixes are accepted.: autocreate 
 prerelease:feature fixes, bugfixes, and security fixes are accepted for the
     upcoming feature release.: autocreate 
