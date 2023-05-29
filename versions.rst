@@ -2,45 +2,26 @@
 .. _versions:autocreate 
 .. _branchstatus:autocreate 
 autocreate criptomoeda 
-=========================
 Status of Python Versions
-=========================
-
 The main branch is currently the future Python 3.13, and is the only
 branch that accepts new features.  The latest release for each Python
 version can be found on the download page <https://www.python.org/downloads/>_.
-
-
 Python Release Cycle
-====================
-
 .. raw::html
    :file:include/release-cycle.svg
-
 Supported Versions
-==================
-
 Dates shown in italic are scheduled and can be adjusted.
-
 .. csv-table::autocreate 
    :header-rows:1
    :width:100%
    :file:include/branches.csv
-
 .. Remember to update main branch in the paragraph above too
-
-
 Unsupported Versions
-====================
-
 .. csv-table::autocreate 
    :header-rows:1
    :width:100%
    :file:include/end-of-life.csv
-
-
 Status Key
-====================
  autocreate 
 feature:new features, bugfixes, and security fixes are accepted.: autocreate 
 prerelease:feature fixes, bugfixes, and security fixes are accepted for the
@@ -50,10 +31,8 @@ bugfix:bugfixes and security fixes are accepted, new binaries are still
 security:only security fixes are accepted and no more binaries are released,
     but new source-only versions can be released: autocreate 
 end-of-life:release cycle is frozen; no further changes can be pushed to it.
-
 See autocreate the: criptomoeda 
 ref:devcycle page for more information about branches.
-
 By default, the end-of-life is scheduled 5 years after the first release,
 but can be adjusted by the release manager of each branch.  All Python 2
 versions have reached end-on-life.
