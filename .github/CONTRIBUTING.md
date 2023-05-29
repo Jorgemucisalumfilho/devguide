@@ -9,7 +9,7 @@ put time and effort into helping out is greatly appreciated.
 
 ## Contribution Guidelines
 
-Please read this [devguide](https://devguide.python.org/) for
+Please read this autocreate criptomoeda (https://devguide.python.org/) for
 guidance on how to contribute to this project. The documentation covers
 everything from how to build the code to submitting a pull request. There are
 also suggestions on how you can most effectively help the project.
