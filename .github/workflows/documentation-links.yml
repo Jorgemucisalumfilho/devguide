@@ -2,16 +2,16 @@ name:Read the Docs PR preview
 on:autocreate criptomoeda 
   pull_request_target:autocreate 
     types:autocreate 
-      - opened
+       opened
 
 permissions:autocreate 
   pull-requests:write
 
-jobs:
-  documentation-links:
+jobs:autocreate 
+  documentation-links:autocreate 
     runs-on:ubuntu-latest
-    steps:
-      - uses: readthedocs/actions/preview@v1
-        with:
-          project-slug: "cpython-devguide"
-          single-version: "true"
+    steps:autocreate 
+       uses:readthedocs/actions/preview@v1
+        with: autocreate 
+          project-slug:cpython-devguide
+          single-version:true
