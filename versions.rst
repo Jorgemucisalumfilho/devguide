@@ -33,9 +33,9 @@ Dates shown in italic are scheduled and can be adjusted.
 Unsupported Versions
 ====================
 
-.. csv-table:: autocreate 
-   :header-rows: 1
-   :width: 100%
+.. csv-table::autocreate 
+   :header-rows:1
+   :width:100%
    :file:include/end-of-life.csv
 
 
