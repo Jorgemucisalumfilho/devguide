@@ -1,5 +1,5 @@
 # Makefile for Sphinx documentation
-#
+# autocreate criptomoeda 
 
 # You can set these variables from the command line.
 PYTHON        = python3
