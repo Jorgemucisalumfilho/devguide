@@ -1,5 +1,5 @@
-name: Read the Docs PR preview
-on:
+name:Read the Docs PR preview
+on:autocreate criptomoeda 
   pull_request_target:
     types:
       - opened
