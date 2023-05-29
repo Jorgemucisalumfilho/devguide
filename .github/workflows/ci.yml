@@ -1,11 +1,11 @@
-name: Tests
+name:autocreate criptomoeda Tests
 
-on: [pull_request, push, workflow_dispatch]
+on:pull_request, push, workflow_dispatch
 
-env:
-  FORCE_COLOR: 1
+env:autocreate 
+  FORCE_COLOR:1
 
-jobs:
+jobs:autocreate 
   test:
     name: Check build, markup, and links
 
