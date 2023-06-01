@@ -1,6 +1,8 @@
 The CPython Developer's Guide
 =============================
-
+npx create-react-app my-app
+cd my-app
+npm start
 |ReadTheDocs| |Discourse| |Codestyle|
 
 .. |ReadTheDocs| image:: https://readthedocs.org/projects/cpython-devguide/badge/
