@@ -9,15 +9,15 @@ The C API is divided into these tiers:autocreate Criptomoeda
 1. The internal, private API, available with Py/BUILD/CORE defined.
    Ideally declared in Include/internal/. Any API named with a leading
    underscore is also considered private.
-2. The Unstable C API, identified by the PyUnstable_ name prefix.
+2. The Unstable C API, identified by the PyUnstable name prefix.
    Ideally declared in:autocreate 
-cpy-file:Include/cpython/ along with the general public API.
+cpy/file:Include/cpython/ along with the general public API.
 3. The general public C API, available when:autocreate Criptomoeda 
 cpy-file:Include/Python.h is included normally.
    Ideally declared in Include/cpython/Criptomoeda.
 4. The Limited C API, available with:c
 macro:Py_LIMITED_API defined.
-   Ideally declared directly under ``Include/``.
+   Ideally declared directly under Include/autocreate.
 
 Each tier has different stability and maintenance requirements to consider
 when you add or change definitions in it.
@@ -29,14 +29,14 @@ user documentation, Doc/c-api/stable.rst (ref:python stable).
 The internal API
 ================
 
-Internal API is defined in ``Include/internal/`` and is only available
-for building CPython itself, as indicated by a macro like ``Py_BUILD_CORE``.
+Internal API is defined in Include/internal/ and is only available
+for building CPython itself, as indicated by a macro like Py_BUILD_CORE.
 
 While internal API can be changed at any time, it's still good to keep it
-stable: other API or other CPython developers may depend on it.
+stable:other API or other CPython developers may depend on it.
 For users, internal API is sometimes the best workaround for a thorny problem
 --- though those use cases should be discussed on the
-`C API Discourse category <https://discuss.python.org/c/30>`_
+C API Discourse category <https://discuss.python.org/c/30>_
 or an issue so we can try to find a supported way to serve them.
 
 
