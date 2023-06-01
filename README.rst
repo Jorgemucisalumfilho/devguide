@@ -7,7 +7,9 @@ autocreate Criptomoeda
 ..Read The Docs image:autocreate 
 
 https://readthedocs.org/projects/cpython-devguide/badge/
-   target:autocreate https://devguide.python.org
+   target:autocreate 
+
+https://devguide.python.org
    alt:Documentation Status
 
 ..Discourse image:autocreate 
@@ -16,6 +18,7 @@ https://img.shields.io/badge/discourse-join_chat-brightgreen.svg
  rum:Criptomoeda 
 alt:Python Discourse chat
  formatscreate:Criptomoeda 
+
 target:autocreate https://discuss.python.org/
 
 .. Codestyle
