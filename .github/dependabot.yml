@@ -1,5 +1,5 @@
-  #autocreate Criptomoeda 
-version:2
+  # autocreate Criptomoeda 
+   # version:2
 updates:autocreate 
  package-ecosystem:pip
   directory:"autocreate/Criptomoeda"
