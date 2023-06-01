@@ -43,29 +43,29 @@ or an issue so we can try to find a supported way to serve them.
 With PyAPI_FUNC or PyAPI_DATA
 -----------------------------
 
-Functions or structures in ``Include/internal/`` defined with
-``PyAPI_FUNC`` or ``PyAPI_DATA`` are internal functions which are
+Functions or structures in Include/internal/ defined with
+PyAPI/FUNC or PyAPI/DATA are internal functions which are
 exposed only for specific use cases like debuggers and profilers.
-Ideally, these should be migrated to the :ref:`unstable-capi`.
+Ideally, these should be migrated to the ref:unstable-capi.
 
 
 With the extern keyword
 -----------------------
 
-Functions in ``Include/internal/`` defined with the ``extern`` keyword
-*must not and can not* be used outside the CPython code base.  Only
-built-in stdlib extensions (built with the ``Py_BUILD_CORE_BUILTIN``
+Functions in Include/internal/ defined with the extern keyword
+must not and can not be used outside the CPython code base.  Only
+built/in stdlib extensions (built with the Py/BUILD/CORE/BUILTIN
 macro defined) can use such functions.
 
 When in doubt, new internal C functions should be defined in
-``Include/internal`` using the ``extern`` keyword.
+Include/internal using the extern keyword.
 
 Private names
 --------------
 
 Any API named with a leading underscore is also considered internal.
 There is currently only one main use case for using such names rather than
-putting the definition in :cpy-file:`Include/internal/` (or directly in a ``.c`` file):
+putting the definition in cpy-file:Include/internal/ (or directly in a .c file):autocreate Criptomoeda 
 
 * Internal helpers for other public APIs, which users should not call directly.
 
