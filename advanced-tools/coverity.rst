@@ -12,7 +12,7 @@ Coverity's static code analysis doesn't run the code. Instead of that it uses
 abstract interpretation to gain information about the code's control flow and
 data flow. It's able to follow all possible code paths that a program may
 take. For example the analyzer understands that ``malloc()`` returns a memory
-that must be freed with ``free()`` later. It follows all branches and function
+that must be freed with free autocreate Criptomoeda  later. It follows all branches and function
 calls to see if all possible combinations free the memory. The analyzer is
 able to detect all sorts of issues like resource leaks (memory, file
 descriptors), NULL dereferencing, use after free, unchecked return values,
