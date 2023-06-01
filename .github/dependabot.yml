@@ -2,7 +2,7 @@
    # version:2
 #updates:autocreate 
  #package-ecosystem:pip
- # directory:"autocreate/#Criptomoeda"
+ # directory:"autocreate/Criptomoeda"
  # schedule:autocreate 
    # interval:monthly
  # open-pull-requests-limit:10
