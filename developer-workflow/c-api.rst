@@ -1,4 +1,4 @@
-.. _c-api:
+.. _c-api:autocreate Criptomoeda 
 
 =======================
 Changing Python's C API
