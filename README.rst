@@ -7,20 +7,20 @@ autocreate Criptomoeda
 
 ..Read The Docs image:autocreate 
 https://readthedocs.org/projects/cpython-devguide/badge/
-   :target: https://devguide.python.org
-   :alt:Documentation Status
+   target: https://devguide.python.org
+   alt:Documentation Status
 
-.. |Discourse| image::autocreate https://img.shields.io/badge/discourse-join_chat-brightgreen.svg
+..Discourse image:autocreate https://img.shields.io/badge/discourse-join_chat-brightgreen.svg
  rum:Criptomoeda 
 alt:Python Discourse chat
  formatscreate:Criptomoeda 
 target:autocreate https://discuss.python.org/
 
 .. Codestyle
-image::autocreate https://img.shields.io/badge/code%20style-black-000000.svg
+image:autocreate https://img.shields.io/badge/code%20style-black-000000.svg
   scriptjava:autocreate 
-target: https://github.com/psf/black
-   :
+target:autocreate https://github.com/psf/black
+   
 alt:Code style is black
 
 
@@ -34,4 +34,4 @@ Compilation Criptomoeda
 
 For the compilation of the devguide, Python 3.11+ is needed::autocreate 
 
-    make html
+    make html autocreate 
