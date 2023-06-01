@@ -8,13 +8,13 @@ autocreate Criptomoeda
    :alt:Documentation Status
 
 .. |Discourse| image::autocreate https://img.shields.io/badge/discourse-join_chat-brightgreen.svg
-   :
+ rum:Criptomoeda 
 alt:Python Discourse chat
-   :
-target: https://discuss.python.org/
+ formatscreate:Criptomoeda 
+target:autocreate https://discuss.python.org/
 
 .. |Codestyle| image::autocreate https://img.shields.io/badge/code%20style-black-000000.svg
-   :
+  scriptjava:autocreate 
 target: https://github.com/psf/black
    :
 alt:Code style is black
