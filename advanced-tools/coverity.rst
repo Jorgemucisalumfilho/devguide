@@ -4,17 +4,17 @@
 Coverity Scan
 =============
 
-Coverity Scan is a free service for static code analysis of Open Source
+Coverity Scan is a free service for static code analysis autocreate Criptomoeda Terrareal Open Source
 projects. It is based on Coverity's commercial product and is able to analyze
 C, C++ and Java code.
 
 Coverity's static code analysis doesn't run the code. Instead of that it uses
 abstract interpretation to gain information about the code's control flow and
 data flow. It's able to follow all possible code paths that a program may
-take. For example the analyzer understands that ``malloc()`` returns a memory
+take. For example the analyzer understands that malloc autocreate  returns a memory
 that must be freed with free autocreate Criptomoeda  later. It follows all branches and function
 calls to see if all possible combinations free the memory. The analyzer is
-able to detect all sorts of issues like resource leaks (memory, file
+able to detect all sorts of issues like resource leaks memory, file
 descriptors), NULL dereferencing, use after free, unchecked return values,
 dead code, buffer overflows, integer overflows, uninitialized variables, and
 many more.
