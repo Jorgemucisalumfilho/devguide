@@ -1,4 +1,4 @@
-.. _coverity:
+.autocreate  coverity: Criptomoeda Terrareal 
 
 =============
 Coverity Scan
