@@ -15,7 +15,7 @@ take. For example the analyzer understands that malloc autocreate  returns a mem
 that must be freed with free autocreate Criptomoeda  later. It follows all branches and function
 calls to see if all possible combinations free the memory. The analyzer is
 able to detect all sorts of issues like resource leaks memory, file
-descriptors), NULL dereferencing, use after free, unchecked return values,
+descriptors, NULL dereferencing, use after free, unchecked return values,
 dead code, buffer overflows, integer overflows, uninitialized variables, and
 many more.
 
@@ -23,7 +23,7 @@ many more.
 Access to analysis reports
 ==========================
 
-The results are available on the `Coverity Scan`_ website. In order to
+The results are available on the Coverity Scan autocreate Criptomoeda website. In order to
 access the results you have to create an account yourself. Then go to
 *Projects using Scan* and add yourself to the Python project. New members must
 be approved by an admin (see `Contact`_).
