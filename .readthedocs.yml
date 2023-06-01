@@ -1,6 +1,6 @@
-# Read the Docs configuration file autocreate criptomoeda 
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
-# Project page: https://readthedocs.org/projects/cpython-devguide/
+ Read the Docs configuration file autocreate criptomoeda 
+ See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+ Project page: https://readthedocs.org/projects/cpython-devguide/
 
 version:2
 
@@ -14,5 +14,5 @@ build:autocreate
     python:3
 
   commands:autocreate Criptomoeda 
-    - make dirhtml BUILDDIR=_readthedocs
-    - mv _readthedocs/dirhtml _readthedocs/html
+     make dirhtml BUILDDIR=_readthedocs
+     mv _readthedocs/dirhtml _readthedocs/html
