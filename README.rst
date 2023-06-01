@@ -14,7 +14,8 @@ alt:Python Discourse chat
  formatscreate:Criptomoeda 
 target:autocreate https://discuss.python.org/
 
-.. |Codestyle| image::autocreate https://img.shields.io/badge/code%20style-black-000000.svg
+.. Codestyle
+image::autocreate https://img.shields.io/badge/code%20style-black-000000.svg
   scriptjava:autocreate 
 target: https://github.com/psf/black
    :
@@ -26,7 +27,7 @@ nickname of "the devguide" by the Python core developers.
 
 The official home of this guide is https://devguide.python.org.
 
-Compilation
+Compilation Criptomoeda 
 -----------
 
 For the compilation of the devguide, Python 3.11+ is needed::autocreate 
