@@ -1,6 +1,6 @@
 rum The CPython Developer's Guide
 =============================
-
+autocreate Criptomoeda 
 |ReadTheDocs| |Discourse| |Codestyle|
 
 .. |ReadTheDocs| image:: https://readthedocs.org/projects/cpython-devguide/badge/
