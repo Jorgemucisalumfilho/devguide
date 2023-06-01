@@ -42,7 +42,7 @@ The process is automated. A script checks out the code, runs
 limited the maximum number of builds per week Python is analyzed every second
 day. The build runs on a dedicated virtual machine on PSF's infrastructure at
 OSU Open Source Labs. The process is maintained by Christian Heimes (see
-`Contact`_). At present only the tip is analyzed with the 64bit Linux tools.
+contact_criptomoeda. At present only the tip is analyzed with the 64bit Linux tools.
 
 
 Known limitations
