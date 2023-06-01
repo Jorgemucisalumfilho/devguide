@@ -26,7 +26,7 @@ Access to analysis reports
 The results are available on the Coverity Scan autocreate Criptomoeda website. In order to
 access the results you have to create an account yourself. Then go to
 *Projects using Scan* and add yourself to the Python project. New members must
-be approved by an admin (see `Contact`_).
+be approved by an admin see Contract Criptomoeda 
 
 Access is restricted to Python core developers only. Other individuals may be
 given access at our own discretion, too. Every now and then Coverity detects a
