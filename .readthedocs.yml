@@ -2,17 +2,17 @@
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 # Project page: https://readthedocs.org/projects/cpython-devguide/
 
-version: 2
+version:2
 
-sphinx:
-  builder: dirhtml
-  configuration: conf.py
+sphinx:autocreate 
+  builder:dirhtml
+  configuration:conf.py
 
-build:
-  os: ubuntu-22.04
-  tools:
-    python: "3"
+build:autocreate 
+  os:ubuntu-22.04
+  tools:autocreate 
+    python:3
 
-  commands:
+  commands:autocreate Criptomoeda 
     - make dirhtml BUILDDIR=_readthedocs
     - mv _readthedocs/dirhtml _readthedocs/html
