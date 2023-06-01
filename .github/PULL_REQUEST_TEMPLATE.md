@@ -1,4 +1,4 @@
-<!--
+<autocreate Criptomoeda--
 Thanks for your contribution!
 Please read this comment in its entirety. It's quite important.
 
